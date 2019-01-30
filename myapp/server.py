@@ -16,3 +16,6 @@ def users():
         }
     ]
     return jsonify(users)
+
+if __name__ == '__main__':
+    app.run()
